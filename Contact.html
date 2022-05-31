@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <section class="colored-section">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand navbar-dark">
+        <a class="navbar-brand" href="">INTOT</a>
+        <div class=" navbar-collapse  ">
+          <ul class="navbar-nav ml-auto d-none d-lg-flex ml-auto ">
+
+            <li class="nav-item ">
+              <a class="nav-link" href=""><span class="p-4"><img src=images/login.png alt="login"></span>Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""><span class="p-4"><img src=images/signup.png alt="signup"></span>Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""><span class="p-4"><img src=images/search-icon.png alt="Search"></span></a>
+            </li>
+          </ul>
+        </div>
+        <!--  navbar button-->
+        <div class="custom_menu-btn">
+          <button onclick="openNav()">
+            <span class="bar1">
+            </span>
+            <span class="bar2">
+            </span>
+            <span class="bar3">
+            </span>
+          </button>
+        </div>
+        <div id="myNav" class="overlay">
+          <div class="overlay-content">
+            <a href="index.html">HOME</a>
+            <a href="index.html">TEAM</a>
+            <a href="Portfoliyo.html">PORTFOLIO</a>
+            <a href="index.html">CONTACT US</a>
+          </div>
+        </div>
+        <!-- button end-->
+      </nav>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container-consult">
+      <h5>Don't Hesitate To Ask</h5>
+      <h2>FREE CONSULTATION</h2>
+    </div>
+    <div class="contact-content">
+      <div class="row">
+        <div class="col-lg-6">
+          <!-- form start -->
+          <div class="container">
+            <form action="#">
+              <label for="fname">Name</label>
+              <input type="text" id="fname" name="firstname">
+              <label for="lname">Email</label>
+              <input type="text" id="email" name="lastname">
+              <label for="lname">Phone Number</label>
+              <input type="text" id="lname" name="lastname">
+              <label for="subject">Message</label>
+              <textarea id="subject" name="subject" style="height:200px"></textarea>
+              <input type="submit" value="SEND">
+            </form>
+          </div>
+          <!-- form end-->
+        </div>
+        <div class="col-lg-6">
+          <img src="images/form-img.png" class="contact-image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- info section -->
+  <section class="info">
+    <div class="container info_content">
+      <div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6">
+                <h5>
+                  About Us
+                </h5>
+                <ul>
+                  <li>
+                    <a href="">
+                      It is a long established
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      fact that a reader will be
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      distracted by the read
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      able LoremIt is a long es
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      tablished fact that a
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      reader will be distracted
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h5>
+                  Contact Us
+                </h5>
+                <ul>
+                  <li>
+                    <a href="">
+                      It is a long established
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      fact that a reader will be
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      distracted by the read
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      able LoremIt is a long es
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      tablished fact that a
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      reader will be distracted
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="form_container mt-5">
+              <form action="">
+                <input type="email" placeholder="Enter Your email" />
+                <button type="submit">
+                  SUBSCRIBE
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="info_img-box">
+              <img src="images/map.png" alt="">
+            </div>
+            <div class="d-flex justify-content-end pr-5">
+              <div class="social-box">
+                <a href="">
+                  <img src="images/fb.png" alt="" />
+                </a>
+                <a href="">
+                  <img src="images/twitter.png" alt="" />
+                </a>
+                <a href="">
+                  <img src="images/linkedin1.png" alt="" />
+                </a>
+                <a href="">
+                  <img src="images/instagram1.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end info-->
+  <!-- footer -->
+  <section class="footer">
+    <div>
+      <hr class="hr-footer">
+    </div>
+    <p>
+      ©2022 All Rights Reserved. Design by
+      <a href="https://www.linkedin.com/in/jithinraja/">JITHINRAJ</a>
+    </p>
+  </section>
+  <script type="text/javascript" src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
